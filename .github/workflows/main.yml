@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run build:staging -- --base-href='https://yiparkar.github.io/civis-frontend/'
+        run: npm run build:staging -- --base-href='https://SujeetFFG.github.io/civis-frontend/'
       - name: Create 404.html
         run: npm run-script create404
       - name: Archive build
