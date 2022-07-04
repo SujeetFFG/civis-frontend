@@ -51,12 +51,17 @@
         border-bottom: 2px solid #BFE4FF;
         border-radius: 0 !important;
 
+        .card-body {
+          padding: 1rem 0rem 1rem 2rem !important;
+        }
+
         .panel-heading {
           border-bottom: none !important;
           padding: 0.2rem !important;
 
           .btn-link {
             color: #0E73B9 !important;
+            text-align: start !important
           }
         }
       }

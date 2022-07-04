@@ -21,9 +21,12 @@
                 <div class="notification-sub-header" >
                   {{ notify.subText }}
                 </div>
-                <li class="cursor-pointer" *ngFor="let subNotify of notify.consultations" (click)="navigateToConsultations(subNotify.id)">
-                  {{ subNotify.id }}
-                </li>
+                <ul>
+                  <li class="cursor-pointer" *ngFor="let subNotify of notify.consultations" (click)="navigateToConsultations(subNotify.id)">
+                    {{ subNotify.id }}
+                  </li>
+                </ul>
+
               </ng-container>
             </accordion-group>
           </accordion>
